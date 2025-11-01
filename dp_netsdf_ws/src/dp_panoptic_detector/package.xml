@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dp_panoptic_detector</name>
+  <version>0.0.1</version>
+  <description>Panoptic segmentation node providing masks and semantics for DP-NeTSDF.</description>
+  <maintainer email="manueljunior14.mj@gmail.com">Manuel Junior</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>dp_msgs</depend>
+
+  <exec_depend>python3-ultralytics</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+</package>

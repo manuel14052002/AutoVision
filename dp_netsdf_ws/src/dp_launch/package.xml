@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dp_launch</name>
+  <version>0.0.1</version>
+  <description>Aggregate launch files for DP-NeTSDF stack.</description>
+  <maintainer email="manueljunior14.mj@gmail.com">Manuel Junior</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>dp_depth_preproc</exec_depend>
+  <exec_depend>dp_panoptic_detector</exec_depend>
+  <exec_depend>dp_tsdf_fuser</exec_depend>
+  <exec_depend>dp_dynamic_manager</exec_depend>
+  <exec_depend>dp_neural_refiner</exec_depend>
+  <exec_depend>dp_visualizer</exec_depend>
+  <exec_depend>dp_realsense</exec_depend>
+</package>

@@ -1,0 +1,46 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Tool Properties
+    Name: Tool Properties
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Frame Timeout: 15
+      Name: TF
+    - Class: rviz_default_plugins/Image
+      Enabled: true
+      Name: RGB
+      Topic: /camera/color/image_raw
+    - Class: rviz_default_plugins/Image
+      Enabled: true
+      Name: Depth
+      Topic: /camera/depth/filtered
+    - Class: rviz_default_plugins/PointCloud2
+      Enabled: true
+      Name: MapPointCloud
+      Topic: /map/pointcloud
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: RefinedMesh
+      Topic: /map/refined_mesh
+  Global Options:
+    Background Color: {r: 0, g: 0, b: 0}
+    Fixed Frame: map
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/Measure
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 5
+      Pitch: 0.5
+      Yaw: 0.5

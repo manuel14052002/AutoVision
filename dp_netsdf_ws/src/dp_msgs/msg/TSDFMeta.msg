@@ -1,0 +1,7 @@
+std_msgs/Header header
+float32 voxel_size
+float32 truncation_distance
+float32 resolution_x
+float32 resolution_y
+float32 resolution_z
+string map_frame
