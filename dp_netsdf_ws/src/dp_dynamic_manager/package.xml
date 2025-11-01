@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dp_dynamic_manager</name>
+  <version>0.0.1</version>
+  <description>Dynamic object masking and voxel separation utilities.</description>
+  <maintainer email="manueljunior14.mj@gmail.com">Manuel Junior</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>dp_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <exec_depend>python3-numpy</exec_depend>
+</package>

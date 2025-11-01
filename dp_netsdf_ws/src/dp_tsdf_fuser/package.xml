@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>dp_tsdf_fuser</name>
+  <version>0.0.1</version>
+  <description>TSDF fusion node integrating depth and panoptic information.</description>
+  <maintainer email="manueljunior14.mj@gmail.com">Manuel Junior</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>dp_msgs</depend>
+
+  <exec_depend>python3-open3d</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+</package>
